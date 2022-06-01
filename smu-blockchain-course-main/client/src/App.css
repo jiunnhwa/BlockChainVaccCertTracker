@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "din-2014";
+    src: url("./fonts/DIN2014-ExtraLight.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/DIN2014-ExtraLight.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "din-2014", helvetica, arial, sans-serif;
+    word-break: break-all;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #F01714;
+    border: 1px solid #ee1818;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-weight: bolder;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    min-width: 80vw;
+    min-height: 80vh;
+}
+
+.FooterContainer {
+    color: white;
+    background: #061016;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Footer_Logo {
+    padding-bottom: 20px;
+}
+
+.links {
+    padding: 10px;
+}
+
+.FooterContainer>ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    display: table;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
